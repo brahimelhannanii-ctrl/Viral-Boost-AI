@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827"><title>Viral Boost AI</title><link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><div class="brand">🚀 Viral Boost <b>AI</b></div><span class="tag">استوديو صناعة المحتوى</span></header>
+<main>
+  <section class="hero"><p class="eyebrow">صناعة محتوى قصير بذكاء</p><h1>حوّل فكرتك إلى فيديو جذاب</h1><p>سيناريو، مشاهد، تعليق صوتي، عنوان وهاشتاغات في مكان واحد.</p></section>
+  <section class="panel">
+    <h2>إعداد الفيديو</h2>
+    <div class="grid">
+      <label>المنصة<select id="platform"><option>Facebook Reels</option><option>TikTok</option><option>YouTube Shorts</option></select></label>
+      <label>المجال<select id="niche"><option>محتوى عالمي</option><option>حياة البادية والفلاحة</option><option>قصص ومواقف</option><option>معلومات وحقائق</option><option>ترفيه وضحك</option></select></label>
+      <label>المدة<select id="duration"><option value="15">15 ثانية</option><option value="30" selected>30 ثانية</option><option value="45">45 ثانية</option><option value="60">60 ثانية</option></select></label>
+      <label>اللغة<select id="language"><option>الدارجة المغربية</option><option>العربية الفصحى</option><option>Français</option><option>English</option></select></label>
+    </div>
+    <label class="idea">الفكرة أو الموضوع (اختياري)<input id="idea" placeholder="مثلاً: سرّ من أسرار حياة البادية"></label>
+    <button id="generate">✨ أنشئ المحتوى</button>
+    <p class="hint">النسخة الحالية تنشئ مسودة محلية جاهزة للتعديل. توليد الفيديو والصوت آلياً يحتاج ربط مزوّد API ومفتاحه.</p>
+  </section>
+  <section id="output" class="panel hidden">
+    <div class="output-head"><h2>النتيجة</h2><button class="secondary" id="copy">نسخ المحتوى</button></div>
+    <div id="result"></div>
+  </section>
+</main>
+<footer>Viral Boost AI · نسخة أولية قابلة للتطوير</footer>
+<script src="/app.js"></script>
+</body></html>
